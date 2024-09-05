@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Portfolio Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="dashboard">
+        <h1>Crypto Portfolio Dashboard</h1>
+        <table id="portfolio-table">
+            <thead>
+                <tr>
+                    <th>Token</th>
+                    <th>Balance</th>
+                    <th>Current Value (USD)</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="portfolio-body">
+                <!-- Token rows will be dynamically added here -->
+            </tbody>
+        </table>
+
+        <div class="chart-container">
+            <canvas id="portfolio-chart"></canvas>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
